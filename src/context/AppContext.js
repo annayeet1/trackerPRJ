@@ -1,4 +1,4 @@
-import React, { createContext, useContext, useState, useEffect } from 'react';
+import React, { createContext, useContext, useState, useEffect, useCallback } from 'react';
 import { getTodayDate, archiveData } from '../utils/dateUtils';
 
 const AppContext = createContext();
